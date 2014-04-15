@@ -1,0 +1,130 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../lib/gems/1.8/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 10, ../sass/screen.scss */
+.box {
+  width: 22%;
+  height: 300px;
+  border: 1px solid #000;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 12, ../sass/screen.scss */
+.box + .box {
+  margin-left: 1%;
+}
+
+/* line 13, ../sass/screen.scss */
+.onG {
+  background-color: green;
+}
+
+/* line 14, ../sass/screen.scss */
+.onY {
+  background-color: yellow;
+}
+
+/* line 15, ../sass/screen.scss */
+.onR {
+  background-color: red;
+}
+
+/* line 16, ../sass/screen.scss */
+.off {
+  background-color: black;
+}
+
+/* line 18, ../sass/screen.scss */
+#lcdleds ul {
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+/* line 19, ../sass/screen.scss */
+.led a {
+  display: block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  padding-top: 15px;
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 21, ../sass/screen.scss */
+.led + .led {
+  margin-left: 5px;
+}
